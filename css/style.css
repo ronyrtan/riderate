@@ -1,3 +1,7 @@
 body {
   background: lightgray;
 }
+
+.lcTunnel {
+  display: none;
+}

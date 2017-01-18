@@ -12,43 +12,55 @@
 
   <h1>Ride Rate</h1>
 
-  <ul>
+  <!-- <ul>
     <li>rate black/SUV</li>
     <li>base fare</li>
     <li>cost per km $4.5</li>
     <li>cost per min $1</li>
     <li>mimimum charge</li>
     <li>cancellation fee?</li>
-  </ul>
+  </ul> -->
 
-  <div class="total" id="total">$0</div>
+  <div class="total" id="total">$0.00</div>
 
   <div>
-    <input type="text" name="" id="" placeholder="km">
+    <input type="text" id="km" placeholder="km">km
     <br>
-    <input type="text" name="" id="" placeholder="minutes">
+    <input type="text" id="minutes" placeholder="minutes">minutes
   </div>
+
+  <br>
+
+  <input type="button" id="calculate" value="calculate">
+
+  <br>
+  <br>
+  <br>
+
+
   <div class="tolls">
-    <input type="checkbox" name="m5" id="" placeholder="km">
+    <input type="checkbox" id="m5">
     M5</br>
-    <input type="checkbox" name="harbourBridge" id="" placeholder="km">
+    <input type="checkbox" id="harbourBridge">
     Harbour Bridge</br>
-    <input type="checkbox" name="EasternDistributor" id="" placeholder="km">
+    <input type="checkbox" id="easternDistributor">
     Eastern Distributor</br>
 
 
-    <input type="checkbox" name="laneCoveTunnel" id="" placeholder="km">
+    <input type="checkbox" id="laneCoveTunnel">
     Lane Cove Tunnel</br>
-    <select>
-      <option value="mainTunnel">Main Tunnel</option>
-      <option value="militaryRd">Military Rd</option>
-    </select>
+    <div class="lcTunnel">
+      <select id="lcTunnelSelect">
+        <option value="lcMainTunnel">Main Tunnel</option>
+        <option value="militaryRd">Military Rd</option>
+      </select>
+    </div>
     </br>
 
-    <input type="checkbox" name="crossCity" id="" placeholder="km">
+    <input type="checkbox" id="crossCity">
     Cross City Tunnel</br>
     <select class="" name="">
-      <option value="mainTunnel">Main Tunnel</option>
+      <option value="cCmainTunnel">Main Tunnel</option>
       <option value="sirJohnYoungCres">Sir John Young Cres</option>
     </select>
   </div>
@@ -100,7 +112,6 @@
       </select>
     </div>
   </div>
-  <input type="button" name="" id="" value="calculate">
 
 
   <script src="js/jquery.js"></script>
