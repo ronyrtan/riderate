@@ -7,6 +7,7 @@ $('#calculate').on('click', function() {
   $('#total').html('$' + data.total.toFixed(2));
 });
 
+
 // Add toll function for single set toll.
 
 var addTolls = function(sender, toll) {

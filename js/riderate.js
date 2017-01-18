@@ -28,17 +28,17 @@ var minPrice = function(amount) {
   return amount;
 };
 
-var harbourBridge = 4;
 var m5 = 4.57;
+var harbourBridge = 4;
 var easternDistributor = 6.95;
 
 //laneCoveTunnelToll
 var lcTunnelToll = [3.21, 1.61];
-var lcMainTunnel = 3.21;
-var militaryRd = 1.61;
+// var lcMainTunnel = 3.21;
+// var militaryRd = 1.61;
 
 
 //crossCityTunnelToll
 var ccTunnelToll = [5.47, 2.58];
-var ccMainTunnel = 5.47;
-var sirJohnYoungCres = 2.58;
+// var ccMainTunnel = 5.47;
+// var sirJohnYoungCres = 2.58;
