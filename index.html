@@ -12,15 +12,6 @@
 
   <h1>Ride Rate</h1>
 
-  <!-- <ul>
-    <li>rate black/SUV</li>
-    <li>base fare</li>
-    <li>cost per km $4.5</li>
-    <li>cost per min $1</li>
-    <li>mimimum charge</li>
-    <li>cancellation fee?</li>
-  </ul> -->
-
   <div class="total" id="total">$0.00</div>
 
   <div>
@@ -34,9 +25,6 @@
   <input type="button" id="calculate" value="calculate">
 
   <br>
-  <br>
-  <br>
-
 
   <div class="tolls">
     <input type="checkbox" id="m5">
@@ -45,7 +33,6 @@
     Harbour Bridge</br>
     <input type="checkbox" id="easternDistributor">
     Eastern Distributor</br>
-
 
     <input type="checkbox" id="laneCoveTunnel">
     Lane Cove Tunnel</br>
@@ -57,12 +44,14 @@
     </div>
     </br>
 
-    <input type="checkbox" id="crossCity">
+    <input type="checkbox" id="crossCityTunnel">
     Cross City Tunnel</br>
-    <select class="" name="">
-      <option value="cCmainTunnel">Main Tunnel</option>
-      <option value="sirJohnYoungCres">Sir John Young Cres</option>
-    </select>
+    <div class="ccTunnel">
+      <select id="ccTunnelSelect">
+        <option value="ccMainTunnel">Main Tunnel</option>
+        <option value="sirJohnYoungCres">Sir John Young Cres</option>
+      </select>
+    </div>
   </div>
 
   <div class="tolls">
@@ -115,6 +104,7 @@
 
 
   <script src="js/jquery.js"></script>
+  <script src="js/ui.js"></script>
   <script src="js/riderate.js"></script>
 </body>
 </html>
