@@ -1,6 +1,7 @@
 // UI
 
 $('#calculate').on('click', function() {
+  // data.total = 0;
   var km = kmPrice( parseInt($('#km').val()) );
   var min = minPrice( parseInt($('#minutes').val()) );
   data.total += km + min;
@@ -93,7 +94,9 @@ var addSelectToll = function(array, index, prevIndex) {
   return prevIndex;
 }
 
-
+$('#tollToggle').click(function() {
+  $('.tolls').fadeToggle();
+});
 
 
   // var addSelectToll = function(sender, sign) {

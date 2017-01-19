@@ -2,10 +2,6 @@ body {
   background: lightgray;
 }
 
-.lcTunnel {
-  display: none;
-}
-
-.ccTunnel {
+.lcTunnel, .ccTunnel, .tolls {
   display: none;
 }
